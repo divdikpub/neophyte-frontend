@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+th,
+td {
+  @apply border px-2 py-1;
+}
+
+label {
+  @apply flex flex-col;
+}
+
+input[type="text"] {
+  @apply border px-2 py-1;
+}
